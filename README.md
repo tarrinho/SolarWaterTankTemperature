@@ -56,6 +56,25 @@ Final Version of our solution - inside a platic protection (home made :D )
 ![Solution mounted](https://github.com/tarrinho/SolarWaterTankTemperature/blob/master/FinalInstalation-Mounted.jpg)
 
 
+*Step 6: Get the data into a log/event file
+
+Now that we have our webserver working, we need to get the data and every minute send it to our central ELK system. For that reason, I created this simple bash script that retrieves just the temperature and stores it in a event log file that will be consumed by our ELK.
+
+https://github.com/tarrinho/SolarWaterTankTemperature/blob/master/get.data.water.temp.sh
+
+
+*Step 7: Add a new source from ELK
+
+Now that we have the event/log file, we need to inject it to our ELK (ElasticSearch + Logstash + Kibana stack).
+
+https://github.com/tarrinho/SolarWaterTankTemperature/blob/master/logstash-watersolar.conf
+
+*Step 8: Create a Dashboard
+
+After ensuring the creating of the index, create a dashboard like this:
+
+![Final Kibana Dashboard](https://github.com/tarrinho/SolarWaterTankTemperature/blob/master/Kibana.dashboard.PNG)
+
 Final Note: 
 
 I want to thank all the guys that detailed information on the Internet but specially to the ones that created the following sites:
