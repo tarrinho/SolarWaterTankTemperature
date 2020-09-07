@@ -77,6 +77,7 @@ After ensuring the creating of the index, create a dashboard like this:
 
 Final Note: 
 
-I want to thank all the guys that detailed information on the Internet but specially to the ones that created the following sites:
+I want to thank all the guys that detailed information on the Internet but specially to the ones that created the following sites, this allowed me to learn:
 
 https://randomnerdtutorials.com/esp8266-ds18b20-temperature-sensor-web-server-with-arduino-ide/
+https://www.circuitbasics.com/arduino-thermistor-temperature-sensor-tutorial/
