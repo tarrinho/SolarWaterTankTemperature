@@ -1,5 +1,5 @@
 # SolarWaterTankTemperature
-Get information from a Temperature Sensor to an Arduino and presented to an ELK (ElasticSearch Stack)
+Get information from a Temperature Sensor to an Arduino and presented to an ELK (ElasticSearch Stack) - PT4.Tech - https://pt4.tech/blog/watersolartanktempmonitor/
 
 *Goal: Retrieve water temperature from my solar tank and inject the data into my ELK Stack
 
